@@ -1,6 +1,7 @@
-1. The console will print the current value of the variable ```i``` which is ```3```.
-2. The console will print the current value of the variable ```discountedPrice``` which is ```150```.
-3. The console will print the current value of the variable ```finanPrice``` which is ```150```.
+1. The console will print the current value of the variable ```i``` which is ```3```. Since we declare ```i``` as a ```var``` type, then it has no block scope and it could be access outside of the block. Thus, we can print the value.
+2. The console will print the current value of the variable ```discountedPrice``` which is ```150```. Since we declare ```discountedPrice``` as a ```var``` type, then it has no block scope and it could be access outside of the block. Thus, we can print the value.
+3. The console will print the current value of the variable ```finanPrice``` which is ```150```. Since we declare ```finanPrice``` as a ```var``` type, then it has no block scope and it could be access outside of the block. Thus, we can print the value.
 4. The function will return the a list of ```finalPrice``` for the price list.
 5.  ___ReferenceError: i is not defined.___ Since the word ```let``` has block scope and variable ```i``` defined within the ```for``` block and uses outside the block, therefore the program **_CANNOT_** refer to data anymore.
 6.  ___ReferenceError: discountedPrice is not defined.___ Since the word ```let``` has block scope and variable ```discountedPrice``` defined within the ```for``` block and uses outside the block, therefore the program **_CANNOT_** refer to data anymore.
+7. The console will print the current value of the variable ```finanPrice``` which is ```150```. Since we declare ```finanPrice``` only at the beginning within the function block, so we can access it whenever we are in the functino block.

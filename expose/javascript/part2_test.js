@@ -203,19 +203,93 @@
 
 /////////////////////////////////////////////////////////////////////
 
-// Question 11
-function discountPrices(prices, discount) {
-    const discounted = [];
-    const length = prices.length;
+// // Question 11
+// function discountPrices(prices, discount) {
+//     const discounted = [];
+//     const length = prices.length;
 
-    for (let i = 0; i < length; i++) {
-        const discountedPrice = prices[i] * (1 - discount);
-        discounted.push(discountedPrice);
-    }
+//     for (let i = 0; i < length; i++) {
+//         const discountedPrice = prices[i] * (1 - discount);
+//         discounted.push(discountedPrice);
+//     }
 
-    // console.log(i);
-    // console.log(length);
+//     // console.log(i);
+//     // console.log(length);
 
-    return discounted;
-}
-discountPrices([100, 200, 300], 0.5);
+//     return discounted;
+// }
+// discountPrices([100, 200, 300], 0.5);
+
+/////////////////////////////////////////////////////////////////////
+
+
+// Data Types
+let student = {
+    name: 'Sarah',
+    major: 'Computer Science',
+    'Grad Year': '2022',
+    greeting: function() { console.log('Hello!');},
+    'Favorite Teacher' : {
+        name: 'Thomas Powell',
+        course: 'CSE 100'
+    },
+    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
+};
+
+
+/////////////////////////////////////////////////////////////////////
+
+//// Basic Operators & Type Conversion 
+
+
+/////////////////////////////////////////////////////////////////////
+
+// // Loops
+// let statistics = {
+//     redCars: 21,
+//     blueCars: 45,
+//     grennCars: 12,
+//     raceCars: 5,
+//     blackCars: 40,
+//     rareCars: 2
+// };
+
+
+/////////////////////////////////////////////////////////////////////
+
+//// Functions
+
+// function modifyArray(array, callback) {
+//     const newArr = [];
+//     for (let i = 0; i < array.length; i++) {
+//         newArr.push(callback(array[i]));
+//     }
+//     return newArr;
+// }
+
+// function doSomething(num) {
+//     return num * 2;
+// }
+
+// modifyArray([1,2,3], doSomething);
+
+/////////////////////////////////////////////////////////////////////
+
+//// setInterval(), setTimeout(), clearTimeout()- Q18
+
+// let d = new Date();
+// let time = d.toLocaleTimeString();
+// console.log(time);
+
+////----------------------------------------------------------
+
+////  Q19
+// function printNums() {
+//     console.log(1);
+//     setTimeout(function() { console.log(2); }, 1000);
+//     setTimeout(function() { console.log(3); }, 0);
+//     console.log(4);
+// }
+
+// printNums();
+

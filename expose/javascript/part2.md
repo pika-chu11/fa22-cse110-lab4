@@ -2,4 +2,4 @@
 2. The console will print the current value of the variable ```discountedPrice``` which is ```150```.
 3. The console will print the current value of the variable ```finanPrice``` which is ```150```.
 4. The function will return the a list of ```finalPrice``` for the price list.
-5.  
+5.  ___ReferenceError: i is not defined.___ Since the word ```let``` has block scope and variable ```i``` defined within the ```if``` block and uses outside the block, therefore the program **_CANNOT_** refer to data anymore.

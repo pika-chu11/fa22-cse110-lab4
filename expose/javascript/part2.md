@@ -24,7 +24,7 @@
     __F.__ ```0```. Since there is no string, so the program will perform numeric conversion. Since ```false``` and ```null``` has value of ```0``` when performing numeric conversion. \
     __G.__ ```3undefined```. Since ```undefined``` becomes ```"undefined"``` when concating to the ```'3'```.\
     __H.__ ```NaN```. Since ```'3'``` maps to ```3``` and ```undefined``` maps to ```NaN```. ```3 - NaN``` we _Can't_ do the math, so the answer would be ```undefined``` which is same as ```NaN``` in Numeric Conversion.
-14. \ 
+14. \
     __A.__ **True.** String '2' becomes an number 2.\
     __B.__ **False.** Dictionary comparison, first char ```"2"``` is greater than the first char ```"1"```.\
     __C.__ **True.** String '2' becomes an number 2.\

@@ -283,22 +283,22 @@
 
 // Question 14
 // // Question A
-console.log('2' > 1);
+// console.log('2' > 1);
 
-// // Question B
-console.log('2' < '12');
+// // // Question B
+// console.log('2' < '12');
 
-// // Question C
-console.log(2 == '2');
+// // // Question C
+// console.log(2 == '2');
 
-// // Question D
-console.log(2 === '2');
+// // // Question D
+// console.log(2 === '2');
 
-// // Question E
-console.log(true == 2);
+// // // Question E
+// console.log(true == 2);
 
-// // Question F
-console.log(true === Boolean(2));
+// // // Question F
+// console.log(true === Boolean(2));
 /////////////////////////////////////////////////////////////////////
 
 // // Loops
@@ -314,21 +314,24 @@ console.log(true === Boolean(2));
 
 /////////////////////////////////////////////////////////////////////
 
-//// Functions
+// Functions
 
-// function modifyArray(array, callback) {
-//     const newArr = [];
-//     for (let i = 0; i < array.length; i++) {
-//         newArr.push(callback(array[i]));
-//     }
-//     return newArr;
-// }
+function modifyArray(array, callback) {
+    const newArr = [];
+    for (let i = 0; i < array.length; i++) {
+        newArr.push(callback(array[i]));
+    }
+    for (let i = 0; i < newArr.length; i++){
+        console.log(newArr[i]);
+    }
+    return newArr;
+}
 
-// function doSomething(num) {
-//     return num * 2;
-// }
+function doSomething(num) {
+    return num * 2;
+}
 
-// modifyArray([1,2,3], doSomething);
+modifyArray([1,2,3], doSomething);
 
 /////////////////////////////////////////////////////////////////////
 

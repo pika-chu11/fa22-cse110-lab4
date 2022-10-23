@@ -33,7 +33,7 @@
     __F.__ **True.** Since there are the same type from both sides.
 15. - A strict equality operator ```===``` checks if the type of the variables are the same. If their types are different, it will return ```false```. 
     - A non-strick check ```==```with type conversion. 
-16. See the ```part2-question16.js``` files.
+16. See the **```part2-question16.js```** files.
 17. The function ```modifyArray([1,2,3], doSomething)``` will return a array with double of the orginal array elements (```[2,4,6]```). First, the ```modifyArray``` function will declare an empty array name ```newArr```. Then for each element of the input array, it pass the value to the ```doSomething``` function and return the doubled value. Finally, push the value back to the array ```newArr``` and return it at the end of the function.
-18. See the ```part2-question18.js``` files.
+18. See the **```part2-question18.js```** files.
 19. The output would be ```1 4 3 2```.

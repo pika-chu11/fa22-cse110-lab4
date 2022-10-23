@@ -223,20 +223,35 @@
 /////////////////////////////////////////////////////////////////////
 
 
-// Data Types
-let student = {
-    name: 'Sarah',
-    major: 'Computer Science',
-    'Grad Year': '2022',
-    greeting: function() { console.log('Hello!');},
-    'Favorite Teacher' : {
-        name: 'Thomas Powell',
-        course: 'CSE 100'
-    },
-    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
-};
+// // Data Types
+// let student = {
+//     name: 'Sarah',
+//     major: 'Computer Science',
+//     'Grad Year': '2022',
+//     greeting: function() { console.log('Hello!');},
+//     'Favorite Teacher' : {
+//         name: 'Thomas Powell',
+//         course: 'CSE 100'
+//     },
+//     courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
+// };
 
+// // Question A: 
+// console.log(student.name);
+// console.log(student["name"]);
 
+// // Question B: 
+// console.log(student["Grad Year"]);
+
+// // Question C:
+// student.greeting();
+// student["greeting"]();
+
+// // Question D:
+// console.log(student["Favorite Teacher"].name);
+
+// // Question E:
+// console.log(student.courseLoad[0]);
 /////////////////////////////////////////////////////////////////////
 
 //// Basic Operators & Type Conversion 

@@ -278,10 +278,27 @@
 // // Question G
 // console.log('3' + undefined);
 
-// Question H
-console.log('3' - undefined);
+// // Question H
+// console.log('3' - undefined);
 
+// Question 14
+// // Question A
+console.log('2' > 1);
 
+// // Question B
+console.log('2' < '12');
+
+// // Question C
+console.log(2 == '2');
+
+// // Question D
+console.log(2 === '2');
+
+// // Question E
+console.log(true == 2);
+
+// // Question F
+console.log(true === Boolean(2));
 /////////////////////////////////////////////////////////////////////
 
 // // Loops

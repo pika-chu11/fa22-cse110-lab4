@@ -1,0 +1,2 @@
+1. The **data type** of ```num1``` and ```num2``` is string which when they perform addition, they will just concatenate ```num2``` to ```num1```.
+2. I will fix it by parse ```num1``` and ```num2``` to int and do the addition.

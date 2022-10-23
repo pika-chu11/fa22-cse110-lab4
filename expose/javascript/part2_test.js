@@ -344,12 +344,16 @@
 ////----------------------------------------------------------
 
 //  Q19
-function printNums() {
-    console.log(1);
-    setTimeout(function() { console.log(2); }, 1000);
-    setTimeout(function() { console.log(3); }, 0);
-    console.log(4);
-}
+// function printNums() {
+//     console.log(1);
+//     setTimeout(function() { console.log(2); }, 1000);
+//     setTimeout(function() { console.log(3); }, 0);
+//     console.log(4);
+// }
 
-printNums();
+// printNums();
 
+let num1 = "1";
+let num2 = "2";
+
+console.log(parseInt(num1) + parseInt(num2));

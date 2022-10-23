@@ -14,7 +14,7 @@
     __B.__ ```student["Grad Year"]```.\
     __C.__ ```student.greeting()``` or ```student.greeting()```.\
     __D.__ ```student["Favorite Teacher"].name```.\
-    __E.__ ```student.courseLoad[0]```.\
+    __E.__ ```student.courseLoad[0]```.
 13. \
     __A.__ ```32```. Since integers map to their exact string representation.\
     __B.__ ```1```. Since numeric conversion happens in mathematical expressions. ```'3'``` is converted to type number ```3``` in this expression.\
@@ -23,5 +23,5 @@
     __E.__ ```4```. Since ```true``` has value of ```1``` when performing numeric conversion. \
     __F.__ ```0```. Since there is no string, so the program will perform numeric conversion. Since ```false``` and ```null``` has value of ```0``` when performing numeric conversion. \
     __G.__ ```3undefined```. Since ```undefined``` becomes ```"undefined"``` when concating to the ```'3'```.\
-    __H.__ ```NaN```. Since ```'3'``` maps to ```3``` and ```undefined``` maps to ```NaN```. ```3 - NaN``` we _Can't_ do the math, so the answer would be ```undefined``` which is same as ```NaN``` in Numeric Conversion.\
+    __H.__ ```NaN```. Since ```'3'``` maps to ```3``` and ```undefined``` maps to ```NaN```. ```3 - NaN``` we _Can't_ do the math, so the answer would be ```undefined``` which is same as ```NaN``` in Numeric Conversion.
 14. \ 

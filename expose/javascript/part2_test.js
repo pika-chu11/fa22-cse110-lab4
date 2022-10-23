@@ -256,6 +256,31 @@
 
 //// Basic Operators & Type Conversion 
 
+// Question 13
+// // Question A
+// console.log('3' + 2);
+
+// // Question B
+// console.log('3'- 2);
+
+// // Question C
+// console.log(3 + null);
+
+// // Question D
+// console.log('3' + null);
+
+// // Question E
+// console.log(true + 3);
+
+// // Question F
+// console.log(false + null);
+
+// // Question G
+// console.log('3' + undefined);
+
+// Question H
+console.log('3' - undefined);
+
 
 /////////////////////////////////////////////////////////////////////
 
